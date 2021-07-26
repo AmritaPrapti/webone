@@ -5,12 +5,13 @@
 
 header{
     width: 100%;
-    background: url("../image/bg.jpg");
-    height:100vh ;
+    background-image:linear-gradient(to left top, rgba(198, 108, 73, 0.301),rgb(206, 237, 237,0.3)) ,url("../image/bg.jpg");
+    height:100vh ;)),
     background-size: cover;
     background-position: center center;
     position: relative;
     margin-top: 0px;
+    clip-path: polygon(0 0,100% 0,100% 70%,0 100%);
 }
 .wrapper{
     width: 100%;
